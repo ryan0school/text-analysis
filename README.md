@@ -12,6 +12,7 @@ Requirements:
 Example:
 Same text. It contains punctuations such as commas, periods, and even exclamation marks! I have also included CAPITAL LETTERS.
 Running the script with this as the input file would output:
+
 Total words: 59
 Total punctuations: 14
 Specific punctuation counts: {'.': 3, ',': 1, '-': 0, "'": 0, '*': 0, ':': 1}
@@ -48,7 +49,8 @@ this part is what actually finds the most common word in the string
 
 [0][0]:
 this part just makes it so that it only states the most common word, and doesn't add the amount of times it's said. in the zen of python file, if i were to remove these two zero's it would still say the same common word, but add the number of times that word was said.
-example of this  
+
+**example of this  **
 
 with:
 most common word: is
