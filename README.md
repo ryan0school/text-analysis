@@ -36,6 +36,29 @@ This opens the file, reads it, splits up all the text into it's own section to c
 
 This block of code calculates the total number of punctuations, counts how many there are of each specific punctuation, counts all the capital letters, and finds the most common words in the string.
 
+  capitals = sum(1 for char in text if char.isupper())
+means each character is counted as 1 if the char.isupper is true.
+
+
+  common = count.most_common(1)[0][0]
+this is the code used to find out the word that is said the most amount of times.
+
+common = count.most_common(1):
+this part is what actually finds the most common word in the string
+
+[0][0]:
+this part just makes it so that it only states the most common word, and doesn't add the amount of times it's said. in the zen of python file, if i were to remove these two zero's it would still say the same common word, but add the number of times that word was said.
+example of this  
+
+with:
+most common word: is
+
+without:
+most common word: is, 10
+
+
+
+
 
 
 
